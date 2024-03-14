@@ -1,5 +1,10 @@
 {
   "private": true,
+  "scripts": {
+    "start": "rw dev",
+    "sync": "rw prisma migrate dev",
+    "studio": "rw prisma studio"
+  },
   "workspaces": {
     "packages": [
       "api",
